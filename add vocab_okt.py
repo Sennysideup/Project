@@ -1,3 +1,17 @@
+# library
+import pandas as pd
+import numpy as np
+import torch
+import os
+import random
+from sklearn.model_selection import train_test_split
+from transformers import AutoTokenizer, AutoModel
+from torch.utils.data import Dataset
+from torch.utils.data import DataLoader
+from torch import nn
+from tqdm import tqdm
+from konlpy.tag import Okt
+
 # setting
 def seed_everything(seed):
     random.seed(seed)
