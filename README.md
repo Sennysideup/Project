@@ -1,3 +1,3 @@
-### 개인 코드 관리용
-- EDA, 모델링 등
-- 개인 프로젝트 및 학습 자료
+### Team project
+- What was the project(only text, briefly)
+- What I contribute to project(with code)
