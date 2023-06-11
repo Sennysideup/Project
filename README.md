@@ -6,7 +6,7 @@
 - model centric
   1. PCA
   2. EllipticEnvelope
-  3. hyperparameter tuning
+  3. hyperparameter tuning : Gridsearch, Randomized
 - data centric
   1. oversampling
   2. TabGAN
