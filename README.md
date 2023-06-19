@@ -31,6 +31,11 @@
 
 ### text summarization
 - 한 사용자가 작성한 여러 리뷰를 요약
+- KoBART : huggingface의 digit82/kobart-summarization 사용
+- lexrank : lexrankr 사용
+#### Issue
+- KoBART : tokenizer.encode 사용 시 리뷰 길이로 인한 오류 발생
+- lexrank : gensim 라이브러리의 경우, 한국어 요약을 지원하지 않아 요약되지 않는 경우 다수 발생
 
 ### text embedding
 - 요약된 리뷰를 벡터화하여 추천시스템의 사용자 feature로 사용할 수 있게 구성
