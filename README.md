@@ -17,6 +17,10 @@
 1. 상품 상세 페이지로 이동할 수 있는 goodsno 수집 : goods info
 2. 상품 상세 페이지 : 상품 정보 + <b>리뷰 작성자 id 수집</b> - review per item
 3. 리뷰 작성자 페이지 : 최근에 작성한 20개 리뷰 및 상품명, 평점, 사용자 정보 수집 - reviewer's info
+4. 데이터프레임 구성
+   1. 상품 정보 : product
+   2. 사용자 정보 : user
+   3. 구매 정보 : purchase
 #### Issue
 - 반복적으로 스크래핑 시 웹페이지 접속 불가
   1. fake-useragent : 효과X
