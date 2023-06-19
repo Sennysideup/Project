@@ -22,3 +22,5 @@
   1. fake-useragent : 효과X
   2. Tor : 효과X
   3. free-proxy : 가장 효과있던 방법
+     1. https = yes
+     2. elite, anonymous 여부 무관
