@@ -49,3 +49,5 @@
 - 각 임베딩 방식 적용
 #### Issue
 - 상품 정보와 컬럼 개수의 imbalance
+---------------------------------------------------------
+<I> I cleared some of outputs for hiding reviewer's key </I>
