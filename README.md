@@ -33,9 +33,15 @@
 - 한 사용자가 작성한 여러 리뷰를 요약
 - KoBART : huggingface의 digit82/kobart-summarization 사용
 - lexrank : lexrankr 사용
+  1. 문장 기반 요약을 진행하기 때문에 \n 문자 필수적으로 포함되어야함
+     1. 전처리 시 \n을 제외한 escape 문자 삭제
+     2. \n이 없는 경우, -네요, -해요 등의 문자열 뒤에 \n 삽입
+  3. textrank와 lexrank의 파라미터를 변경하며 가장 많이 요약되는 파라미터를 찾음
+  4. 후처리(\n 삭제 등) 필요
 #### Issue
 - KoBART : tokenizer.encode 사용 시 리뷰 길이로 인한 오류 발생
 - lexrank : gensim 라이브러리의 경우, 한국어 요약을 지원하지 않아 요약되지 않는 경우 다수 발생
 
 ### text embedding
 - 요약된 리뷰를 벡터화하여 추천시스템의 사용자 feature로 사용할 수 있게 구성
+- 리뷰가 없는 리뷰자의 경우 모든 embedding 값을 0으로 fillna
