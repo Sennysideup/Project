@@ -2,7 +2,7 @@
 - 올리브영 리뷰 요약 데이터를 활용한 추천시스템 성능 개선
 - 목표 : 추천시스템 성능을 개선할 수 있는 리뷰 데이터 feature 생성 및 적용
 ---------------------------------------------------------
-#### contribution
+#### My contribution
 - crawling
 - text summarization
   1. KoBART
