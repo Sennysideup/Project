@@ -11,6 +11,3 @@
 3. 대시보드 구축
 - result : https://public.tableau.com/shared/WDP73WHKY?:display_count=n&:origin=viz_share_link
 - 개인 프로젝트
-
-------------------------------------------------------------
-<I> I found that my code is inefficient(but it works). I'll update my code later</I>
