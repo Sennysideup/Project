@@ -9,5 +9,5 @@
    2. 과거 시즌 기록
    3. 이미지
 3. 대시보드 구축
-- result : https://public.tableau.com/shared/WDP73WHKY?:display_count=n&:origin=viz_share_link
+- result : https://public.tableau.com/shared/TYQYZYWX9?:display_count=n&:origin=viz_share_link
 - 개인 프로젝트
